@@ -94,7 +94,7 @@ def meta_augment(meta_df):
 
 def df_from_sas(target, meta_df, skiprows=None, nrows=None, chunksize=None):
     """Deprecated. Use pyhcup.parser.read()"""
-    print "WARNING: pyhcup.sas.df_from_sas() is deprecated and is scheduled for removal in pyhcup 0.1.6; use pyhcup.parser.read()"
+    print("WARNING: pyhcup.sas.df_from_sas() is deprecated and is scheduled for removal in pyhcup 0.1.6; use pyhcup.parser.read()")
     
     from .parser import read
     result = read(target, meta_df, skiprows=skiprows, nrows=nrows, chunksize=chunksize)    

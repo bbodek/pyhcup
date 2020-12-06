@@ -2,7 +2,7 @@
 
 "High-level" module which imports other pyhcup modules as part of its work
 """
-import hachoir, sas, tx
+from . import hachoir, sas, tx
 from .parser import LONG_MAPS
 
 import pandas as pd
