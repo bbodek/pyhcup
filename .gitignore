@@ -78,3 +78,5 @@ pyhcup/tests/config_pg.ini
 *.ini
 
 pyhcup/tests/config_pg.ini
+
+**/*.ipynb_checkpoints/
